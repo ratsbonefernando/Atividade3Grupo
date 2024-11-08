@@ -1,3 +1,4 @@
+```
 const button1 = document.querySelector('#paes')
 const modal1 = document.querySelector('#dialogpaes')
 const button1Close = document.querySelector('#close1')
@@ -101,3 +102,4 @@ function openImageModal(imageSrc, altText) {
 document.querySelectorAll('img').forEach(img => {
     img.onclick = () => openImageModal(img.src, img.alt);
 });
+```
